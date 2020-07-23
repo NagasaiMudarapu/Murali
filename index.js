@@ -5,11 +5,11 @@ ap.get('/',function(rq,rs){
     rs.send("Home Page");
 })
 
-ap.get('/page_1 ',function(rq,rs){
+ap.get('/page_1',function(rq,rs){
     rs.send("Page_1");
 })
 
-ap.get('/page_2 ',function(rq,rs){
+ap.get('/page_2',function(rq,rs){
     rs.send("Page_2");
 })
 
