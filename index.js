@@ -3,6 +3,7 @@ var ap = ex();
 
 ap.get('/',function(rq,rs){
     rs.send("Home Page");
+    
 })
 
 ap.get('/page_1',function(rq,rs){
